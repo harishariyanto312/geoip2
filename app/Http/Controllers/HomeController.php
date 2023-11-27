@@ -24,7 +24,7 @@ class HomeController extends Controller
         }
         catch (\Throwable $e) {
             $result = [
-                'IP' => $userIP,
+                'IP' => 'XX',
                 'countryISOCode' => 'XX',
                 'country' => 'XX',
                 'continent' => 'XX',
